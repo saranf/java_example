@@ -1,3 +1,4 @@
+package ch01;
 public class TypeConversionTest {
 
     public static void main(String[] args) {

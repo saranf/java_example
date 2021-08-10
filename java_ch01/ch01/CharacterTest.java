@@ -1,3 +1,4 @@
+package ch01;
 public class CharacterTest {
     public static void main(String[] args) {
         char ch1 = 'A';

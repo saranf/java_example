@@ -1,3 +1,4 @@
+package ch01;
 public class VariableTest2 {
     public static void main(String[] args) {
         byte bnum = -128 ;

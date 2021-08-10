@@ -1,3 +1,4 @@
+package ch01;
 public class OperatorTest {
     public static void main(String[] args) {
         int gameScore = 150;

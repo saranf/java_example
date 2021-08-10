@@ -1,3 +1,4 @@
+package ch01;
 public class BinaryTest{
     public static void main(String[] args) {
         //정수를 많이 표현하는 자료형 : int 

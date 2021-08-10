@@ -1,3 +1,4 @@
+package ch01;
 public class DoubleTest {
 
     public static void main(String[] args) {
