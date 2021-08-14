@@ -14,8 +14,8 @@ public class EmployeeTest {
         employeeKim.setEmployeeName("김유신");
         employeeKim.serialNum++;
 
-        System.out.println(employeeKim.serialNum);        
-        System.out.println(employee.serialNum);
+        System.out.println(employeeKim.getEmployeeName()+ employeeKim.getEmployeeId());        
+        System.out.println(employee.getEmployeeName()+  employee.getEmployeeId());
     }
     
 }
