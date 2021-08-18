@@ -19,6 +19,12 @@ public class CustomerTest {
         customerKim.bonusPoint=10000;
         customerKim.showCustomerInfo();
 
+        Customer vc = new VIPCustomer(12345, "김유신");
+        //vc.//customer로 바인딩이 되어있기 때문에 customer것만 쓸수 있다.
+        /*
+        vip생성자에 의해 vipcustomer클래스의 모든 멤버 변수에 대한 메모리는 생성되었지만, 변수의 타입이 Customer이므로 실제 접근 가능한 변수는 전부 customer이다.
+        */
+
     
     }
 }
