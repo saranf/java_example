@@ -27,7 +27,16 @@ public class Customer {//if else가 많을시 상속을 생각해 보자
         this.custmorName = custmorName;
     }
 
-    public Customer(){
+    /*public Customer(){
+        bonousRatio = 0.01; // 일반 적립비율
+        custmorGrade = "SILVER"; //고객 등급
+
+        System.out.println("Customer() call");//testcode
+    }*/
+    public Customer(int customerID, String customerName){
+        this.custmorID = customerID;
+        this.custmorName = customerName;
+
         bonousRatio = 0.01; // 일반 적립비율
         custmorGrade = "SILVER"; //고객 등급
     }
