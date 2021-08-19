@@ -25,7 +25,13 @@ public class VIPCustomer extends Customer {
    public VIPCustomer(int customerID, String customerName){
        super(customerID, customerName);
        bonousRatio = 0.05; // 적립비율
+       salesRatio = 0.1;
        custmorGrade = "VIP"; //고객 등급
    }
-    
+    @Override
+    public int clacPrice(int price){ //물건을 삿을때 
+        bonusPoint += price * bonousRatio; //보너스 포인트만 적립해 준다.
+        price -=(int)(price * salesRatio);
+        return price; //할인율을 위하여
+    }
 }
